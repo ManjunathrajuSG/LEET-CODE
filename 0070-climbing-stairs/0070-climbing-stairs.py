@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     def climbStairs(self, n):
         if n == 1:
             return 1
@@ -18,5 +18,5 @@ class Solution(object):
 
 # Example usage:
 solution_instance = Solution()
-print(solution_instance.climbStairs(2))  # Output: 2
-print(solution_instance.climbStairs(3))  # Output: 3
+print(solution_instance.climbStairs(4))  
+print(solution_instance.climbStairs(9))  
