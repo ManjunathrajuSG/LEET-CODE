@@ -11,5 +11,5 @@ class Solution:
         stack.append(']')
       elif not stack or stack.pop() != c:
         return False
-
+ 
     return not stack
